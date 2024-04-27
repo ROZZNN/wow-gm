@@ -1,0 +1,13 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    flex-shrink: 0;
+    flex-grow: 1;  
+    min-height: 70px;
+    float: left; /*Задаем обтекание*/
+    color: white; 
+    margin-top: 60px; 
+    text-align: center; /*Центрируем текст по горизонтали*/
+    margin: 20px
+}

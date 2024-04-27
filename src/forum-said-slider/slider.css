@@ -5,6 +5,7 @@
     padding: 20px;
     border: black;
     border-radius: 26px;
+    width: max-content;
 }
 a {
     text-decoration: none;
@@ -19,5 +20,5 @@ a {
     border-radius: 26px;
     display: flex;
     flex-direction: column;
-    /* justify-content: left; */
+    /* justify-content: left; */  
 }
