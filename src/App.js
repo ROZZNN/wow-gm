@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from './headerr/logoTypeLoong.svg'
+import Header from './headerr/header.js'
+import Sliderforum from './forum-said-slider/sider-forum.js'
+import Sliderclass from './forum-said-slider/sider-class.js'
+import './App.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <Header/> 
+        <div class = 'sliderApp'><Sliderforum/></div>
+        <div class = 'sliderApp-alt'><Sliderclass/></div>
+      </div>
   );
+
 }
 
 export default App;

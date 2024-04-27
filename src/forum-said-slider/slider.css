@@ -1,0 +1,23 @@
+.slider{
+    width: 20%; /* Adjust as needed */
+    background-color: rgb(131, 93, 76, 100);
+    color: white;
+    padding: 20px;
+    border: black;
+    border-radius: 26px;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.slider-alt{
+    width: 20%; /* Adjust as needed */
+    background-color: rgb(131, 93, 76, 100);
+    color: white;
+    padding: 20px;
+    border: black;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+}
