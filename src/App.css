@@ -20,17 +20,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.sliderApp{
+/* .sliderApp{
   display: flex;
   flex-direction: column;
   margin-top: 10%;
   align-content: center;
-}
-.sliderApp-alt{
+  overflow: inherit;
+  padding: 20px 15px 15px;
+  unicode-bidi: isolate;
+ box-sizing: border-box;
+} */
+/* .sliderApp-alt{
   display: flex;
   justify-content: right;
   align-content: center;
-}
+  overflow: inherit;
+  padding: 20px 15px 15px;
+  unicode-bidi: isolate;
+  box-sizing: border-box;
+} */
 
 .App-header {
   background-color: #282c34;
@@ -67,4 +75,13 @@
   color: white; 
   margin-top: 60px; 
   text-align: center;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: column wrap;
+  margin-top: 25%;
 }

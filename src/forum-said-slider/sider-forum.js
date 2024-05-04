@@ -1,18 +1,17 @@
 import './slider.css'
 export default () => {
     return(
-        <div class ='slider'>
-            <lu>
-                <li><a href="#"><h3>тут заголовок</h3></a>
-                    <p>тут текст</p></li>
-                <li><a href="#"><h3>тут заголовок</h3></a>
-                    <p> и тут текст</p></li>
-                <li><a href="#"><h3>тут заголовок</h3></a>
-                    <p> и тут текст</p></li>
-                <li><a href="#"><h3>тут заголовок</h3></a>
-                    <p> и тут текст</p></li>
-            </lu>
+        <div class="slider-alt">
+            <div class ='journal_item_title'>
+                <h3>Forum</h3>
+            </div>
+            <ul class="list_forum">
+                <li><a href="">-----</a></li>
+                <li><a href="">-----</a></li>
+                <li><a href="">-----</a></li>
+                <li><a href="">-----</a></li>
+                <li><a href="">-----</a></li>
+            </ul>
         </div>
-        
     );
 };
