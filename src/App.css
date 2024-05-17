@@ -63,19 +63,6 @@
     transform: rotate(360deg);
   }
 }
-#blyadina {
-  margin-top: 30%;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  flex-grow: 1;  
-  min-height: 70px;
-  float: left;
-  color: white; 
-  margin-top: 60px; 
-  text-align: center;
-}
 
 .flex-container {
   width: 100%;
