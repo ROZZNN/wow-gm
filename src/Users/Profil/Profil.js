@@ -1,4 +1,4 @@
-import "/Users/pisha/WOW-GM/app/src/Users/Profil/profil.css"
+import './profil.css';
 
 export default () => {
     return(

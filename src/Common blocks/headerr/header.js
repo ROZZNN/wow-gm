@@ -7,12 +7,12 @@ export default () => {
           <header class = "header">
             <img src={logo} alt="Логотип"></img>
             <nav class ="nac">
-              <h2><a href="#">MAIN</a></h2>
-              <h2><a href="#">DISCORD</a></h2>
-              <h2><a href="#">FORUM</a></h2>
+              <h2><a href="#" data-value="main">MAIN</a></h2>
+              <h2><a href="#" >DISCORD</a></h2>
+              <h2><a href="#" data-value="forum">FORUM</a></h2>
             </nav>
             <div class = "profil">
-              
+              <h2><a href="#" data-value="REG">Registration</a></h2>
             </div>
           </header>
         </div>

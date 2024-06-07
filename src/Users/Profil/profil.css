@@ -18,5 +18,10 @@ img {
     width: 800px;
 }
 .profile {
+    display: flex;
     background-color: rgb(131, 93, 76, 100);
+    justify-content: flex-start;
+
+    text-align: left;
+    vertical-align: middle;
 }
