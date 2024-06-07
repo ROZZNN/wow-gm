@@ -1,0 +1,22 @@
+img {
+    height: 130px;
+    width: 130px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.name {
+    margin: 5%;
+    color:white;
+}
+.about_profil{
+    margin-top:5%;
+    margin-left: 5%;
+    color:white;
+}
+.comment {
+    height: 700px;
+    width: 800px;
+}
+.profile {
+    background-color: rgb(131, 93, 76, 100);
+}
