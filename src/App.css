@@ -15,6 +15,13 @@
   pointer-events: none;
 }
 
+.profil{
+  background-color:rgb(97, 69, 55);
+}
+.regitration {
+  background-color:rgb(97, 69, 55);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

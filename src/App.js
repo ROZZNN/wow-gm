@@ -7,15 +7,14 @@ import About from "./Common blocks/About/about.js"
 import Registration from './Users/regitration-page/registration.js'
 import ForumQuest from './forum/Discusion-page/All-Discusion.js'
 import Comment from './forum/selected question/commet.js'
-import Profil from './forum/selected question/Profil-quest.js'
-// import Profil from './Users/Profil/Profil.js'
+import Profil from './Users/Profil/Profil.js'
 
 import './bg.css'
 import './App.css'
 function App() {
   return (
     <div>
-      <div class="forum">
+      {/* <div class="forum">
         <Header/>
         <div class="allsubject">
           <ForumQuest/>
@@ -26,11 +25,12 @@ function App() {
         <div class="AddSubject">
         </div>
         <About/>
-      </div>
+      </div> */}
 
       <div id='regitration'>
         <Header/>
         <Registration/>
+        <About/>
       </div>
 
       <div class="profil">
