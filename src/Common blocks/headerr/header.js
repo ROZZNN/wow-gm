@@ -10,10 +10,8 @@ export default () => {
               <h2><a href="#" data-value="main">MAIN</a></h2>
               <h2><a href="#" >DISCORD</a></h2>
               <h2><a href="#" data-value="forum">FORUM</a></h2>
+              <h2><a href="#" data-value="REG">REGISTRATION</a></h2>
             </nav>
-            <div class = "profil">
-              <h2><a href="#" data-value="REG">Registration</a></h2>
-            </div>
           </header>
         </div>
     );

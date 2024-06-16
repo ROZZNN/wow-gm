@@ -2,7 +2,7 @@ import './registration.css'
 
 export default () => {
     return(
-        <div>
+        <div class="userreg">
             <div class='text'><h2>Регистрация</h2></div>
             <div class="block">
                 <div class="datauser">

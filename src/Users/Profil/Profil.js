@@ -1,9 +1,10 @@
-import './profil.css';
+import '../regitration-page/'
+import './ava.jpeg';
 
 export default () => {
     return(
         <div class="profile">
-            <img></img>
+            <img src="./ava.jpeg"></img>
             <h2 class="name">NAME</h2>
             <div class="about_profil">
                 <p>bla bla bla</p>
