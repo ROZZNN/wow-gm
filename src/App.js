@@ -14,18 +14,16 @@ import './App.css'
 function App() {
   return (
     <div>
-      {/* <div class="forum">
+      <div class="forum">
         <Header/>
         <div class="allsubject">
           <ForumQuest/>
         </div>
-        <div class="selectSubject">
-            <Comment/>
-        </div>
         <div class="AddSubject">
+          <button> Add-question </button>
         </div>
         <About/>
-      </div> */}
+      </div>
 
       <div id='regitration'>
         <Header/>

@@ -1,3 +1,5 @@
+import './discusion-type.css'
+
 export default () => {
     return(
         <div class ='question-mini'>
