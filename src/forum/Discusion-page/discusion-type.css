@@ -1,5 +1,9 @@
 .question-mini {
-    height: 6vh;
-    width: 60vh;
+    height: 20vh;
+    width: 80vh;
     background-color: lightgray;
+    border-radius: 3%;
+    border-color:whitesmoke;
+    margin: 2%;
+    padding: 5%;
 }

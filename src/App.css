@@ -79,3 +79,14 @@
   flex-wrap: column wrap;
   margin-top: 25%;
 }
+.allsubject {
+  margin-top: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  flex-wrap: column wrap;
+}
+.forum {
+  background-image: './bacg.jpg';
+  /* background-color: grey; */
+}

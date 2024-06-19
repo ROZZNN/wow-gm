@@ -4,3 +4,8 @@
 .registration {
     background-color: grey;
 }
+.forum {
+    background-image: './bacg.jpg';
+    background-image: url('bacg.jpeg');
+    /* background-color: grey; */
+  }

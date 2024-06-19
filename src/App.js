@@ -8,6 +8,7 @@ import Registration from './Users/regitration-page/registration.js'
 import ForumQuest from './forum/Discusion-page/All-Discusion.js'
 import Comment from './forum/selected question/commet.js'
 import Profil from './Users/Profil/Profil.js'
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import './bg.css'
 import './App.css'
@@ -17,7 +18,9 @@ function App() {
       <div class="forum">
         <Header/>
         <div class="allsubject">
+          <Sliderforum/>
           <ForumQuest/>
+          <Sliderclass/>
         </div>
         <div class="AddSubject">
           <button> Add-question </button>
